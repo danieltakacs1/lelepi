@@ -1,0 +1,21 @@
+.about {
+    background-color: #e0e0eb81;
+    border: 3px solid black;
+    border-radius: 5px;
+    width:50%;
+    height: 400px;
+    text-align: center;
+    margin-left: 25%;
+    margin-top: 1%;
+    padding-top: 175px;
+    font-size:xx-large;
+}
+
+body{
+    background-image: url("LoadingCat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+}

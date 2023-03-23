@@ -1,4 +1,4 @@
 {
-    "server": ["src","node_modules/bootstrap/dist"],
+    "server": ["src","node_modules/bootstrap/dist/css","node_modules/bootstrap/dist/js"],
     "port": 3000
 }
