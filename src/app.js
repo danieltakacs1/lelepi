@@ -1,7 +1,7 @@
-var betetInput = document.querySelector('#betet');
-var kamatInput = document.querySelector('#kamat');
-var tokeInput = document.querySelector('#toke');
-var tenylegesInput = document.querySelector('#tenyleges');
+var AInput = document.querySelector('#A');
+var BInput = document.querySelector('#B');
+var CInput = document.querySelector('#C');
+var eredmenyInput = document.querySelector('#eredmeny');
 var calcButton = document.querySelector('#calcButton');
 
 if(calcButton) {
@@ -18,16 +18,16 @@ if(calcButton) {
 
 function workInput() {
 
-    let betetGood = checkInput(betetInput.value);
-    let kamatGood = checkInput(kamatInput.value);
-    let tokeGood = checkInput(tokeInput.value);
+    let AGood = checkInput(AInput.value);
+    let BGood = checkInput(BInput.value);
+    let CGood = checkInput(CInput.value);
 
-    if (betetGood && kamatGood && tokeGood) {
-        let betet = Number(betetInput.value);
-        let kamat = Number(kamatInput.value);
-        let toke = Number(tokeInput.value);
-        let tenyleges = calcTenylegesKamat(betet, kamat, toke);
-        tenylegesInput.value = tenyleges;
+    if (AGood && BGood && CGood) {
+        let A = Number(AInput.value);
+        let B = Number(BInput.value);
+        let C = Number(CInput.value);
+        let eredmeny = calcEredmeny(A, B, C);
+        eredmenyInput.value = eredmeny;
     } else {
         alert('Hiba')
     }
@@ -35,9 +35,9 @@ function workInput() {
     //console.log(typeof baseInput.value);
 }
 
-function calcTenylegesKamat(betet, kamat, toke) {
+function calcEredmeny(A, B, C) {
 
-    return ((1 + kamat / (100 * toke)) ^ (toke)-1) * betet
+    return A * B * C
 
 }
 
