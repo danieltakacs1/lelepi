@@ -1,5 +1,10 @@
+/*Takács Dániel,2023-03-24,SZOFT I-2 N*/
+
 .about {
-    background-color: #e0e0eb81;
+    background-image: url("LoadingCat.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px solid black;
     border-radius: 5px;
     width:50%;
@@ -7,8 +12,8 @@
     text-align: center;
     margin-left: 25%;
     margin-top: 1%;
-    padding-top: 175px;
-    font-size:xx-large;
+    padding-top: 150px;
+    font-size:50px;
 }
 
 body{
@@ -18,4 +23,13 @@ body{
     background-size: cover;
     color: white;
     text-shadow: 2px 2px black;
+}
+
+.container {
+    width: 50%;
+    margin-left: 25%;
+}
+
+h1{
+    font-size: 39px;
 }

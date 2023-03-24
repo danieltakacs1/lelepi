@@ -1,3 +1,9 @@
+// Takács Dániel,2023-03-24,SZOFT I-2 N
+
+
+
+
+
 var AInput = document.querySelector('#A');
 var BInput = document.querySelector('#B');
 var CInput = document.querySelector('#C');
